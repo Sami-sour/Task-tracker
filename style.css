@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merienda", cursive;
+  color: rgb(207, 204, 204);
+}
+
+body {
+  background-color: rgba(36, 36, 36, 0.959);
+}
+
+.heading {
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+}
+
+.task-outer-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.task-inner-container {
+  padding: 1rem;
+  background-color: rgba(128, 128, 128, 0.292);
+  border-radius: 1rem;
+  box-shadow: white 0px 0px 8px 0px;
+}
+
+.date-section {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.task-value {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-display-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.task-input {
+  width: 82vmin;
+  outline: none;
+  height: 2.4rem;
+  padding: 1rem;
+  border: none;
+  color: black;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.add-btn {
+  background-color: rgba(128, 128, 128, 0.292);
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
+}
+
+.task-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 84vmin;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  background-color: rgba(81, 80, 80, 0.966);
+}
+
+.task-tracker-items {
+  margin-top: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#value {
+  background-color: transparent;
+  border: none;
+  height: 1.5rem;
+  resize: none;
+  outline: none;
+}
+
+.task-items {
+  margin-top: 1rem;
+}
+
+.tick-icon {
+  margin-right: 2rem;
+}
+
+.items-tracker {
+  display: flex;
+  justify-content: center;
+}
